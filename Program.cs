@@ -1,8 +1,13 @@
+using ConferenceManager.Data;
+using ConferenceManager.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<IEventsService, EventsService>();
+builder.Services.AddScoped<IEventsData, EventsData>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

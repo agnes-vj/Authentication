@@ -7,7 +7,7 @@ namespace ConferenceManager.Controllers
     public class HealthController : Controller
     {
         [HttpGet]
-        public IActionResult getHealth()
+        public IActionResult GetHealth()
         {
             return Ok("Welcome!");
         }
