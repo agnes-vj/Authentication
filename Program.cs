@@ -11,6 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped<IEventsService, EventsService>();
 builder.Services.AddScoped<IEventsData, EventsData>();
+builder.Services.AddScoped<ISpeakersService, SpeakersService>();
+builder.Services.AddScoped<ISpeakersData, SpeakersData>();
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

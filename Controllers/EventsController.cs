@@ -30,10 +30,9 @@ namespace ConferenceManager.Controllers
         [Authorize]
         [HttpPost]
         public IActionResult SaveEvents(List<Event> events)
-        {            List<Event> updatedEvents = _eventsService.SaveEvents(events);
+        {            
+            List<Event> updatedEvents = _eventsService.SaveEvents(events);
             return Created("Created Successfully",updatedEvents);
         }
-
-
     }
 }
