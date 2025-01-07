@@ -30,10 +30,9 @@ namespace ConferenceManager.Data
         {
             string json = File.ReadAllText("Data/EventsJson.json");
             Events = JsonSerializer.Deserialize<List<Event>>(json);
-
             foreach (var ev in events)
             {
-                ev.Id = Events.Last().Id + 1;
+                ev.Id = Events[^1].Id + 1;
                 Events.Add(ev);               
             }
             return events;

@@ -1,4 +1,5 @@
 ﻿using ConferenceManager.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConferenceManager.Controllers
@@ -26,6 +27,7 @@ namespace ConferenceManager.Controllers
             return Ok(_eventsService.GetEventById(id));
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult SaveEvents(List<Event> events)
         {            List<Event> updatedEvents = _eventsService.SaveEvents(events);
