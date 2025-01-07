@@ -13,6 +13,8 @@ builder.Services.AddScoped<IEventsService, EventsService>();
 builder.Services.AddScoped<IEventsData, EventsData>();
 builder.Services.AddScoped<ISpeakersService, SpeakersService>();
 builder.Services.AddScoped<ISpeakersData, SpeakersData>();
+builder.Services.AddScoped<IAttendancesService, AttendancesService>();
+builder.Services.AddScoped<IAttendancesData, AttendancesData>();
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
