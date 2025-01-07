@@ -25,5 +25,13 @@ namespace ConferenceManager.Controllers
         {
             return Ok(_eventsService.GetEventById(id));
         }
+
+        [HttpPost]
+        public IActionResult SaveEvents(List<Event> events)
+        {            List<Event> updatedEvents = _eventsService.SaveEvents(events);
+            return Created("Created Successfully",updatedEvents);
+        }
+
+
     }
 }

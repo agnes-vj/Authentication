@@ -7,6 +7,7 @@ namespace ConferenceManager.Services
     {
         List<Event> GetAllEvents();
         Event GetEventById(int id);
+        public List<Event> SaveEvents(List<Event> events);
     }
 
     public class EventsService : IEventsService
@@ -25,6 +26,11 @@ namespace ConferenceManager.Services
         public Event GetEventById(int id)
         {
             return _eventsData.GetEventById(id);
+        }
+
+        public List<Event> SaveEvents(List<Event> events)
+        {
+            return _eventsData.SaveEvents(events);
         }
     }
 }
