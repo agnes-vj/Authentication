@@ -6,7 +6,7 @@ namespace ConferenceManager.Services
     public interface ISpeakersService
     {
         List<Speaker> GetAllSpeakers();
-        public Speaker addSpeaker(Speaker speaker);
+        public Speaker AddSpeaker(Speaker speaker);
     }
 
     public class SpeakersService : ISpeakersService
@@ -18,7 +18,7 @@ namespace ConferenceManager.Services
             _speakersData = speakersData;
             _eventsService = eventService;
         }
-        public Speaker addSpeaker(Speaker speaker)
+        public Speaker AddSpeaker(Speaker speaker)
         {
             List<int> eventIds = _eventsService.GetAllEvents()
                           .Select(e => e.Id)
@@ -32,7 +32,7 @@ namespace ConferenceManager.Services
                 speaker.Id = 1;
             else
                 speaker.Id = speakers[^1].Id + 1;
-            return _speakersData.addSpeaker(speaker);
+            return _speakersData.AddSpeaker(speaker);
 
         }
         public List<Speaker> GetAllSpeakers()

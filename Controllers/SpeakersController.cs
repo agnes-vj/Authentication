@@ -32,7 +32,7 @@ namespace ConferenceManager.Controllers
             {
                 try
                 {
-                    return Ok(_speakersService.addSpeaker(speaker));
+                    return Ok(_speakersService.AddSpeaker(speaker));
                 }
                 catch (Exception ex)
                 {
