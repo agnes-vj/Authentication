@@ -13,6 +13,26 @@ namespace ConferenceManager.Controllers
         {
             _attendancesService = attendancesService;
         }
+
+        [Authorize]
+        [HttpGet("{attendanceId}")]
+
+        public IActionResult getAttendanceById(int attendanceId)
+        {
+            int userId = int.Parse(HttpContext.User.Claims.First().Value);
+            Attendance requestedAttendance;
+            try
+            {
+                requestedAttendance = _attendancesService.getAttendanceById(attendanceId, userId);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            return Ok(requestedAttendance);
+
+        }
+
         [Authorize]
         [HttpPost]
         public IActionResult PostAttendance([FromBody] int eventId)

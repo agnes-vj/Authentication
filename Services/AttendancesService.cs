@@ -5,6 +5,7 @@ namespace ConferenceManager.Services
     public interface IAttendancesService
     {
         Attendance SaveAttendance(int eventId, int userId);
+        public Attendance getAttendanceById(int attendanceId, int userId);
     }
 
     public class AttendancesService : IAttendancesService
@@ -18,6 +19,10 @@ namespace ConferenceManager.Services
             _attendancesData = attendancesData;
             _eventsService = eventsService;
             _usersService = usersService;
+        }
+        public Attendance getAttendanceById(int attendanceId,int userId)
+        {            
+           return _attendancesData.getAttendanceById(attendanceId, userId);            
         }
         public Attendance SaveAttendance(int eventId, int userId)
         {

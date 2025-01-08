@@ -16,6 +16,8 @@ builder.Services.AddScoped<ISpeakersData, SpeakersData>();
 builder.Services.AddScoped<IAttendancesService, AttendancesService>();
 builder.Services.AddScoped<IAttendancesData, AttendancesData>();
 
+builder.Services.AddScoped<IUsersService, UsersService>();
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
