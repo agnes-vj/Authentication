@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "D:\\northcoders\\Auth\\ConferenceManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\data\\eventsjson.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:data\\eventsjson.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\services\\speakersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:services\\speakersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\data\\speakersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:data\\speakersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\controllers\\speakerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:controllers\\speakerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\services\\attendancesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:services\\attendancesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\data\\attendancesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:data\\attendancesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\services\\attendancesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:services\\attendancesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\data\\eventsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:data\\eventsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\services\\eventsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,16 +67,8 @@
       "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|d:\\northcoders\\auth\\conferencemanager\\data\\eventsjson.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DD903BFA-F882-473F-97B3-C0F4309C3BDE}|ConferenceManager.csproj|solutionrelative:data\\eventsjson.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,33 +98,150 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpeakersController.cs",
+              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Controllers\\SpeakersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SpeakersController.cs",
+              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Controllers\\SpeakersController.cs",
+              "RelativeToolTip": "Controllers\\SpeakersController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswCUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:19:34.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpeakersService.cs",
+              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Services\\SpeakersService.cs",
+              "RelativeDocumentMoniker": "Services\\SpeakersService.cs",
+              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Services\\SpeakersService.cs",
+              "RelativeToolTip": "Services\\SpeakersService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:11:18.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SpeakersData.cs",
+              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\SpeakersData.cs",
+              "RelativeDocumentMoniker": "Data\\SpeakersData.cs",
+              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\SpeakersData.cs",
+              "RelativeToolTip": "Data\\SpeakersData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:04:47.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AttendancesService.cs",
               "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Services\\AttendancesService.cs",
               "RelativeDocumentMoniker": "Services\\AttendancesService.cs",
               "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Services\\AttendancesService.cs",
               "RelativeToolTip": "Services\\AttendancesService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBgAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwEAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T19:11:15.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "AttendancesController.cs",
               "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Controllers\\AttendancesController.cs",
               "RelativeDocumentMoniker": "Controllers\\AttendancesController.cs",
               "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Controllers\\AttendancesController.cs",
               "RelativeToolTip": "Controllers\\AttendancesController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAjwCYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA4wBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T16:31:38.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
+              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Controllers\\EventsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwBcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T11:33:18.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventsJson.json",
+              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\EventsJson.json",
+              "RelativeDocumentMoniker": "Data\\EventsJson.json",
+              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\EventsJson.json",
+              "RelativeToolTip": "Data\\EventsJson.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-07T11:49:48.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttendancesData.cs",
+              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\AttendancesData.cs",
+              "RelativeDocumentMoniker": "Data\\AttendancesData.cs",
+              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\AttendancesData.cs",
+              "RelativeToolTip": "Data\\AttendancesData.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:16:01.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-08T12:04:37.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-08T12:04:36.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Speaker.cs",
+              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Speaker.cs",
+              "RelativeDocumentMoniker": "Speaker.cs",
+              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Speaker.cs",
+              "RelativeToolTip": "Speaker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T18:59:56.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "EventsService.cs",
               "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Services\\EventsService.cs",
               "RelativeDocumentMoniker": "Services\\EventsService.cs",
@@ -117,20 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
-              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "Controllers\\EventsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T11:33:18.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -143,20 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AttendancesData.cs",
-              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\AttendancesData.cs",
-              "RelativeDocumentMoniker": "Data\\AttendancesData.cs",
-              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\AttendancesData.cs*",
-              "RelativeToolTip": "Data\\AttendancesData.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBYAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T19:16:01.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "EventsData.cs",
               "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\EventsData.cs",
               "RelativeDocumentMoniker": "Data\\EventsData.cs",
@@ -169,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "ConferenceManager.csproj",
               "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\ConferenceManager.csproj",
               "RelativeDocumentMoniker": "ConferenceManager.csproj",
@@ -182,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Event.cs",
               "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Event.cs",
               "RelativeDocumentMoniker": "Event.cs",
@@ -194,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Attendance.cs",
               "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Attendance.cs",
               "RelativeDocumentMoniker": "Attendance.cs",
@@ -203,30 +314,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T16:37:43.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Speaker.cs",
-              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Speaker.cs",
-              "RelativeDocumentMoniker": "Speaker.cs",
-              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Speaker.cs",
-              "RelativeToolTip": "Speaker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T18:59:56.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EventsJson.json",
-              "DocumentMoniker": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\EventsJson.json",
-              "RelativeDocumentMoniker": "Data\\EventsJson.json",
-              "ToolTip": "D:\\northcoders\\Auth\\ConferenceManager\\Data\\EventsJson.json",
-              "RelativeToolTip": "Data\\EventsJson.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-07T11:49:48.555Z"
             }
           ]
         }
