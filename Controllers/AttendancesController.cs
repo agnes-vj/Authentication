@@ -18,16 +18,15 @@ namespace ConferenceManager.Controllers
         public IActionResult PostAttendance([FromBody] int eventId)
         {
             int userId = int.Parse(HttpContext.User.Claims.First().Value);
-            Console.WriteLine(eventId);
-            Attendance newAttendance = new Attendance() { EventId = eventId, UserId = userId};
-            Attendance? x = _attendancesService.SaveAttendance(eventId, userId);
-            if (x is null)
+            Attendance x;
+            try
             {
-                return BadRequest("Attendance record already exists or another error occurred, try again.");
-            }
-            else
-            {
+                x = _attendancesService.SaveAttendance(eventId, userId);
                 return Created("", x);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
     }

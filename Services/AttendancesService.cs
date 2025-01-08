@@ -4,7 +4,7 @@ namespace ConferenceManager.Services
 {
     public interface IAttendancesService
     {
-        Attendance? SaveAttendance(int eventId, int userId);
+        Attendance SaveAttendance(int eventId, int userId);
     }
 
     public class AttendancesService : IAttendancesService
@@ -12,19 +12,26 @@ namespace ConferenceManager.Services
         
         private IAttendancesData _attendancesData;
         private IEventsService _eventsService;
-        public AttendancesService(IAttendancesData attendancesData, IEventsService eventService)
+        private IUsersService _usersService;
+        public AttendancesService(IAttendancesData attendancesData, IUsersService usersService, IEventsService eventsService)
         {
             _attendancesData = attendancesData;
-            _eventsService = eventService;
+            _eventsService = eventsService;
+            _usersService = usersService;
         }
-        public Attendance? SaveAttendance(int  eventId, int userId)
+        public Attendance SaveAttendance(int eventId, int userId)
         {
+            if (!_usersService.DoesUserExist(userId))
+            {
+                throw new Exception($"User {userId} does not exist.");
+            }
+
             List<int> eventIds = _eventsService.GetAllEvents()
                            .Select(e => e.Id)
                            .ToList();
             if (!eventIds.Contains(eventId))
             {
-                return null;
+                throw new Exception($"Event {eventId} does not exist at this conference.");
             }
 
             var attendances = _attendancesData.GetAllAttendances();
@@ -34,7 +41,7 @@ namespace ConferenceManager.Services
                     .Select(a => a.UserId)
                     .Contains(att.UserId))
             {
-                return null;
+                throw new Exception($"The attendance of user {userId} at event {eventId} has already been logged.");
             }
             else
             {

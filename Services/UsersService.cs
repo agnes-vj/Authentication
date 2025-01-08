@@ -1,6 +1,11 @@
 ﻿namespace ConferenceManager.Services
 {
-    public class UsersService
+    public interface IUsersService
+    {
+        bool DoesUserExist(int userId);
+    }
+
+    public class UsersService : IUsersService
     {
         public bool DoesUserExist(int userId)
         {
