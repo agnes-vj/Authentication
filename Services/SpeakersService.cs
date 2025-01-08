@@ -6,6 +6,7 @@ namespace ConferenceManager.Services
     public interface ISpeakersService
     {
         List<Speaker> GetAllSpeakers();
+        Speaker DeleteSpeakerById(int speakerId);
         public Speaker AddSpeaker(Speaker speaker);
     }
 
@@ -38,6 +39,10 @@ namespace ConferenceManager.Services
         public List<Speaker> GetAllSpeakers()
         {
             return _speakersData.GetAllSpeakers();
+        }
+        public Speaker DeleteSpeakerById(int speakerId)
+        {
+            return _speakersData.DeleteSpeakerById(speakerId);
         }
     }
 }

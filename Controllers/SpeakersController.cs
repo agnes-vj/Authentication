@@ -45,5 +45,31 @@ namespace ConferenceManager.Controllers
                 return Forbid();
             }
         }
+
+        // admin-only delete & update
+        [Authorize]
+        [HttpDelete]
+        public IActionResult DeleteSpeaker([FromBody] int speakerId)
+        {
+            var userRoles = HttpContext.User.Claims
+                .Where(c => c.Type == ClaimTypes.Role)
+                .Select(c => c.Value);
+
+            if (userRoles.Contains("Admin"))
+            {
+                try
+                {
+                    return _speakersService.DeleteSpeakerById(speakerId);
+                }
+                catch (Exception ex)
+                {
+                    return BadRequest(ex.Message);
+                }
+            }
+            else
+            {
+                return Forbid();
+            }
+        }
     }
 }
