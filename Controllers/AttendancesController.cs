@@ -1,6 +1,8 @@
 ﻿using ConferenceManager.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace ConferenceManager.Controllers
 {
@@ -15,15 +17,33 @@ namespace ConferenceManager.Controllers
         }
 
         [Authorize]
+        [HttpGet]
+        public IActionResult AdminGetAllAttendances()
+        {
+            var roles = HttpContext.User.Claims
+                .Where(c => c.Type == ClaimTypes.Role)
+                .Select(c => c.Value);
+
+            if (roles.Contains("Admin"))
+            {
+                return Ok(_attendancesService.GetAllAttendances());
+            }
+            else
+            {
+                return Forbid();
+            }
+        }
+
+        [Authorize]
         [HttpGet("{attendanceId}")]
 
-        public IActionResult getAttendanceById(int attendanceId)
+        public IActionResult GetAttendanceById(int attendanceId)
         {
             int userId = int.Parse(HttpContext.User.Claims.First().Value);
             Attendance requestedAttendance;
             try
             {
-                requestedAttendance = _attendancesService.getAttendanceById(attendanceId, userId);
+                requestedAttendance = _attendancesService.GetAttendanceById(attendanceId, userId);
             }
             catch (Exception ex)
             {

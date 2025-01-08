@@ -4,8 +4,9 @@ namespace ConferenceManager.Services
 {
     public interface IAttendancesService
     {
+        List<Attendance> GetAllAttendances();
         Attendance SaveAttendance(int eventId, int userId);
-        public Attendance getAttendanceById(int attendanceId, int userId);
+        public Attendance GetAttendanceById(int attendanceId, int userId);
     }
 
     public class AttendancesService : IAttendancesService
@@ -20,9 +21,13 @@ namespace ConferenceManager.Services
             _eventsService = eventsService;
             _usersService = usersService;
         }
-        public Attendance getAttendanceById(int attendanceId,int userId)
+        public List<Attendance> GetAllAttendances()
+        {
+            return _attendancesData.GetAllAttendances();
+        }
+        public Attendance GetAttendanceById(int attendanceId,int userId)
         {            
-           return _attendancesData.getAttendanceById(attendanceId, userId);            
+           return _attendancesData.GetAttendanceById(attendanceId, userId);            
         }
         public Attendance SaveAttendance(int eventId, int userId)
         {
