@@ -4,20 +4,31 @@ namespace ConferenceManager.Services
 {
     public interface IAttendancesService
     {
-        Attendance? SaveAttendance(Attendance att);
+        Attendance? SaveAttendance(int eventId, int userId);
     }
 
     public class AttendancesService : IAttendancesService
     {
+        
         private IAttendancesData _attendancesData;
-        public AttendancesService(IAttendancesData attendancesData)
+        private IEventsService _eventsService;
+        public AttendancesService(IAttendancesData attendancesData, IEventsService eventService)
         {
             _attendancesData = attendancesData;
+            _eventsService = eventService;
         }
-        public Attendance? SaveAttendance(Attendance att)
+        public Attendance? SaveAttendance(int  eventId, int userId)
         {
-            var attendances = _attendancesData.GetAllAttendances();
+            List<int> eventIds = _eventsService.GetAllEvents()
+                           .Select(e => e.Id)
+                           .ToList();
+            if (!eventIds.Contains(eventId))
+            {
+                return null;
+            }
 
+            var attendances = _attendancesData.GetAllAttendances();
+            Attendance att = new Attendance() { UserId = userId, EventId = eventId };
             if (attendances
                     .Where(a => a.EventId == att.EventId && a.UserId == att.UserId)
                     .Select(a => a.UserId)
